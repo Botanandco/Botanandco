@@ -1,0 +1,146 @@
+/* max width 1,024px */
+@media only screen and (max-width: 64em) {
+	html {
+		font-size: 50%;
+	}
+}
+
+/* max width 992px */
+@media only screen and (max-width: 62em) {
+	.nav {
+		padding: 0 2rem;
+		width: 100%;
+	}
+
+	.marketing-content {
+		position: relative;
+		z-index: 2;
+		text-align: center !important;
+	}
+
+	.service-content {
+		/* padding: 0 0 8rem 0; */
+	}
+
+	.service-section {
+		padding: 10rem 0;
+	}
+
+	.service-img {
+		opacity: 0.5;
+	}
+
+	h1.heading {
+		font-size: 5.7rem;
+	}
+
+	h2.heading {
+		font-size: 4.6rem;
+	}
+
+	h3.heading {
+		font-size: 3.2rem;
+	}
+
+	h5.heading {
+		font-size: 2.4rem;
+	}
+
+	.text {
+		font-size: 1.6rem;
+	}
+
+	.scroll-down-btn {
+		display: none;
+	}
+
+	.header .scroll-down-btn {
+		display: block;
+	}
+}
+
+/* max width 768px */
+@media only screen and (max-width: 48em) {
+}
+
+/* max width 575px */
+@media only screen and (max-width: 35.9375em) {
+	.container {
+		padding: 0 5rem;
+	}
+
+	html {
+		font-size: 48%;
+	}
+
+	.nav-logo img {
+		height: 5rem;
+	}
+
+	.dots-nav .btn-dot {
+		height: 1rem;
+		width: 1rem;
+	}
+
+	.dots-nav {
+		right: 1.5rem;
+	}
+
+	.popup-item {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 2rem;
+	}
+
+	.popup-content {
+		height: 100vh;
+	}
+	.popup-content h2 {
+		font-size: 3.6rem;
+	}
+
+	.marketing-section,
+	.strategy-section,
+	.technology-section,
+	.corporate-section {
+		/* margin: 6rem 0; */
+	}
+}
+
+/* max width 480px */
+@media only screen and (max-width: 30em) {
+	.cotact-item {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+	.cotact-item input {
+		text-align: start;
+	}
+
+	h1.heading {
+		font-size: 4.5rem;
+	}
+
+	h2.heading {
+		font-size: 4rem;
+	}
+
+	h3.heading {
+		font-size: 2.6rem;
+	}
+
+	h5.heading {
+		font-size: 2.2rem;
+	}
+
+	.text {
+		font-size: 1.4rem;
+	}
+}
+
+/* max width 380px */
+@media only screen and (max-width: 23.75em) {
+	/* html {
+		font-size: 40%;
+	} */
+}
