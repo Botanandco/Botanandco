@@ -317,3 +317,8 @@ h5.heading {
 .pb-10 {
 	padding-bottom: 10rem !important;
 }
+.modal-content
+{
+	background:transparent!important;
+	border : none !important;
+}
